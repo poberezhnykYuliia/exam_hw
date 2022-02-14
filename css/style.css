@@ -17,11 +17,16 @@ body {
     margin: 5px;
     padding: 15px;
 }
+.li-bck li:first-of-type{
+    padding: 0 0 0 5px;
+    margin: 0;
+}
 .li-bck li:hover {
     background-color: purple;
     color: white;
     transition-duration: .8s;
 }
+
 .li-bck li:hover a{
     color: white;
 }
@@ -112,7 +117,7 @@ body {
 
 } */
 .sidenav {
-    width: 200px;
+    width: 15%;
 }
 .li-bck-list {
     display: flex;
@@ -142,7 +147,7 @@ body {
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
    
 }
-.list-block, .table-block {
+.list-block, .table-block, .profile-form {
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 .list-item {
@@ -170,7 +175,7 @@ body {
 .table-list th{
     color: green;
 }
-.table-heder {
+.table-heder, .profile-heder {
     background-color: blue;
     color: white;
     padding: 15px;
@@ -205,3 +210,33 @@ body {
     background-color: rgb(185, 177, 177);
     height: 100%;
 } */
+.active {
+    color: white;
+}
+.sidenav li.active {
+    background-color: blueviolet;
+    color: white;
+}
+.sidenav li.active.li-align a {
+    color: white;
+}
+.active.li-bck li:hover a {
+    color: white;
+}
+.input-field {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+}
+/* .row {
+    padding: 0;
+    margin: 0;
+} */
+.form-button a{
+    /* margin: 0 10px 10px 0; */
+    
+    width: 100%;
+}
+.form-button {
+    margin: 10px;
+}
