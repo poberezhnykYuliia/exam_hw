@@ -108,8 +108,11 @@ body {
     padding-right: 5px;
     width: 90%;
 }
-.li-align-list img {
+/* .li-align-list img {
 
+} */
+.sidenav {
+    width: 200px;
 }
 .li-bck-list {
     display: flex;
@@ -128,9 +131,9 @@ body {
     color: white;
     padding: 5px;
 }
-.li-bck-list li img {
+/* .li-bck-list li img {
   
-}
+} */
 .list-block-heder {
     /* width: 90%; */
     margin: auto 10px auto 10px;
